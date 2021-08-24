@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+.tag {
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #f2f2f2;
+}
+
+i::before {
+  font-size: 14px;
+  margin-left: 5px;
+  color:red !important;
+}
+
+input {
+  flex: 1;
+  font-size: 16px;
+  padding: 5px;
+  outline: none;
+  border: 0;
+}
